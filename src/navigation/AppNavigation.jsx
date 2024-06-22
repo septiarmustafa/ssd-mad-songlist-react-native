@@ -1,8 +1,8 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import BottomTabNavigation from "./BottomTabNavigation";
-import SongSearchContainer from "../../src/components/SongSearchScreen/SongSearchContainer";
-import SongDetailContainer from "../../src/components/SongDetailScreen/SongDetailContainer";
+import SongSearchContainer from "../screens/SongSearchScreen/SongSearchContainer";
+import SongDetailContainer from "../screens/SongDetailScreen/SongDetailContainer";
 
 
 const Stack = createStackNavigator();

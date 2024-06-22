@@ -2,8 +2,8 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Colors from "../utils/Colors";
 import { Entypo } from "@expo/vector-icons";
-import SongSearchContainer from "../components/SongSearchScreen/SongSearchContainer"
-import FavoriteSongContainer from "../components/FavoriteSongScreen/FavoriteSongContainer"
+import SongSearchContainer from "../screens/SongSearchScreen/SongSearchContainer"
+import FavoriteSongContainer from "../screens/FavoriteSongScreen/FavoriteSongContainer"
 
 const Tab = createBottomTabNavigator();
 
